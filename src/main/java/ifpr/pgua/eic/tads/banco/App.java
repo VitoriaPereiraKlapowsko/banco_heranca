@@ -3,6 +3,10 @@ package ifpr.pgua.eic.tads.banco;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+import ifpr.pgua.eic.tads.banco.entidades.ContaBancaria;
+import ifpr.pgua.eic.tads.banco.entidades.Pessoa;
+import ifpr.pgua.eic.tads.banco.entidades.controle.Banco;
+
 public class App {
 
     static Scanner teclado = new Scanner(System.in);
